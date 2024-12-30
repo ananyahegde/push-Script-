@@ -1,0 +1,17 @@
+#! /bin/bash
+
+title="Title of the page goes here"
+header="HTML page"
+para="Cartoon Cat"
+cat << _EOF_
+
+<html>
+  <head> <title> $title <title> </head>
+
+  <body>
+	<h2> $header </h2>
+	<p> $para </p>
+  </body>
+<html>
+
+_EOF_
